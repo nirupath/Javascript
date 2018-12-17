@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+
+<head>
+
+
+
+  <meta charset="utf-8">
+
+
+
+  <title></title>
+
+
+
+</head>
+
+
+
+<body>
+
+
+  <p id="squa" ></p>
+
+
+  <script>
+
+
+
+  function square(n){
+
+
+
+    return n*n;
+
+
+
+  }
+
+
+
+  document.getElementById("squa").innerHTML= square(10
+
+
+
+  );
+
+
+
+  </script>
+
+
+
+
+  <p id="add"></p>
+
+
+
+  <p id="multi"></p>
+
+
+
+  <script>
+
+
+
+  function addNum(num1, num2){
+
+
+
+    return num1+num2;
+
+
+
+  }
+
+
+
+  document.getElementById("add").innerHTML="The addition of the two numbers is "+ addNum(1,10 );
+
+
+
+  function multiNum(num1, num2){
+
+
+
+    return num1 * num2;
+
+
+
+  }
+
+
+
+  document.getElementById("multi").innerHTML= "The multiplication of the two numbers is"+ multiNum(30, 10);
+
+
+
+</script>
+
+
+
+<p id="subtract"></p>
+
+
+
+<script>
+
+
+
+    function subtractNum(num1, num2){
+
+
+
+      return num1 - num2;
+
+
+
+    }
+
+
+
+    document.getElementById("subtract").innerHTML= "The subtraction of the two numbers is"+subtractNum(60, 5);
+
+
+
+  </script>
+
+
+
+
+  <p id="divide"></p>
+
+
+
+  <script>
+
+
+
+  function divideNum(num1, num2){
+
+
+
+    return num1/num2;
+
+
+
+  }
+
+
+
+  document.getElementById("divide").innerHTML= "The division of the two numbers is"+divideNum(5, 5);
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+  <button onclick="alertfunction()">click to alert</button>
+
+
+
+  <script>
+
+
+
+    function alertfunction(){
+
+
+
+      alert("Hello World");
+
+
+
+    }
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+    <p id="name"></p>
+
+
+
+    <script>
+
+
+
+    var person= {firstName:"Nimal" , lastName:"Raj", age:15, city:"Kandy"};
+
+
+
+    document.getElementById("name").innerHTML= "My name is " + person.firstName
+
+
+
+    + " " + person.lastName +". "
+
+
+
+    + "I'm " +person.age + " years old. "+ "I live in " +person.city +".";
+
+
+
+  </script>
+
+
+
+  
+
+
+
+  <p id="cour"></p>
+
+
+
+  <p id="c"></p>
+
+
+
+  <p id="o"></p>
+
+
+
+  <p id="u"></p>
+
+
+
+  <script>
+
+
+
+      var course = {courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"};
+
+
+
+      document.getElementById("cour").innerHTML="Course Name: " + course.courseName;
+
+
+
+      document.getElementById("c").innerHTML="Course Fee: " + course.courseFee;
+
+
+
+      document.getElementById("o").innerHTML="Start Date: " + course.startDate;
+
+
+
+      document.getElementById("u").innerHTML="Center: " + course.center;
+
+
+
+    </script>
+</body>
+</html>
